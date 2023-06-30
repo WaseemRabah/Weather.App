@@ -50,3 +50,29 @@ button:hover {
     max-width: fit-content;
     color: black;
 }
+
+/*Style city h1 */
+.city {
+    font-family: 'Cairo', sans-serif;
+}
+
+/*Style the input field*/
+input {
+    border-radius: 20px;
+}
+
+/*Style the search bar*/
+.search-bar {
+    padding: 5px;
+}
+
+/*Style the placeholder*/
+.search-bar::placeholder {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3rem;
+}
+
+/*Style the description div*/
+.description {
+    text-transform: capitalize;
+}
