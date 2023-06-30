@@ -30,3 +30,8 @@ button {
     background-color: white;
     transition: background-color 0.3s;
 }
+
+/*Add button hover*/
+button:hover {
+    background: rgb(112, 117, 117);
+}
