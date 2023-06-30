@@ -40,3 +40,13 @@ button:hover {
 .glass {
     width: 1.3rem;
 }
+
+/*Style the container div*/
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    border-radius: 27px;
+    width: 100%;
+    max-width: fit-content;
+    color: black;
+}
