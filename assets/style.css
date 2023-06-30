@@ -35,3 +35,8 @@ button {
 button:hover {
     background: rgb(112, 117, 117);
 }
+
+/*Style the icon in the button*/
+.glass {
+    width: 1.3rem;
+}
