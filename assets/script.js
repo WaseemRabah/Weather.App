@@ -39,4 +39,8 @@ let weather = {
 // Set the background image of the body element using the city name as a search term
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
+    search: function () {
+// Retrieve the value entered in the search bar
+        this.fetchWeather(document.querySelector(".search-bar").value);
+    }
 };
