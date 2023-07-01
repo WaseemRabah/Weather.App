@@ -47,3 +47,14 @@ let weather = {
 document.querySelector(".search button").addEventListener("click", function () {
     weather.search();
 });
+document
+    .querySelector(".search-bar")
+// Add event listener to search bar for keyup event
+    .addEventListener("keyup", function (event) {
+// Check if Enter key is pressed
+        if (event.key == "Enter") {
+            weather.search();
+        }
+    });
+// Fetch weather data for Berlin
+weather.fetchWeather("Berlin");
