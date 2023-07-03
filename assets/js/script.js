@@ -65,5 +65,25 @@ searchBar.addEventListener("keyup", function (event) {
     }
 });
 
-//call the 'fetchWeather' method of the 'weather' object.
+//Call the 'fetchWeather' method of the 'weather' object.
 weather.fetchWeather("Berlin");
+
+//Create function to simulate typing animation
+function typeWriter(textElement, text, delay = 100) {
+    let charIndex = 0;
+    const typing = setInterval(() => {
+        textElement.textContent += text[charIndex];
+        charIndex++;
+        if (charIndex === text.length) {
+            clearInterval(typing);
+        }
+    }, delay);
+}
+
+//Add Eventlistener to start typing animation when the page loads
+window.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('typing-text');
+    const text = textElement.textContent;
+    textElement.textContent = ''; // Clear the initial text
+    typeWriter(textElement, text, 100);
+});
