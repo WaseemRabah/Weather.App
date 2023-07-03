@@ -87,3 +87,24 @@ window.addEventListener('DOMContentLoaded', () => {
     textElement.textContent = ''; // Clear the initial text
     typeWriter(textElement, text, 100);
 });
+
+/*Create a function that Get the current date and time 
+and update the clock with 3 second delay to let the page fully upload*/
+function updateClock() {
+    setTimeout(() => {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, "0");
+        const minutes = now.getMinutes().toString().padStart(2, "0");
+        const seconds = now.getSeconds().toString().padStart(2, "0");
+
+        // Create a string representation of the time
+        const timeString = `${hours}:${minutes}:${seconds}`;
+
+        const timeNowElement = document.querySelector(".timeNow");
+        timeNowElement.textContent = timeString;
+    }, 3000);
+}
+
+// Update the clock immediately and then start the delayed updates
+updateClock();
+setInterval(updateClock, 1000); 
