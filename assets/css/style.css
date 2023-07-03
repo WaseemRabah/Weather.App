@@ -141,6 +141,11 @@ input {
     .wind {
         font-size: 1rem;
     }
+
+    .timeNow {
+        top: 12%;
+        left: 25%;
+    }
 }
 
 
@@ -157,5 +162,10 @@ input {
     .humidity,
     .wind {
         font-size: 0.8rem;
+    }
+
+    .timeNow {
+        width: 100%;
+        left: 0;
     }
 }
