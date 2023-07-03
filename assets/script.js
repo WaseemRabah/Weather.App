@@ -1,3 +1,8 @@
+/*
+1-initializes variables and selects DOM elements needed to display weather information 
+on a web page.
+2-sets up event handlers for searching and displaying weather data.
+*/
 const cityElement = document.querySelector(".city");
 const iconElement = document.querySelector(".icon");
 const descriptionElement = document.querySelector(".description");
@@ -10,6 +15,13 @@ const searchBar = document.querySelector(".search-bar");
 
 
 
+/*
+1-Declare the weather as an object with properties and methods for fetching and
+displaying weather data from the OpenWeatherMap API.
+2-Define a method named 'displayWeather' within the 'weather' object.
+to extracts relevant weather data from the provided 'data' object.
+3-Define a search method to triggers the fetching of weather data by calling the 'fetchWeather' 
+*/
 let weather = {
     apikey: "8abf7d32ed7a60b78ee3c1903714fa3e",
     fetchWeather: function (city) {
@@ -41,13 +53,17 @@ let weather = {
     }
 };
 
+//Add Eventlistener for a click event on the search button.
 searchBtn.addEventListener("click", function () {
     weather.search();
 });
+/*Add EventListiner 'Keyup' for the Enter Button so
+when user press 'EnterBtn' the eventListiner function will be excuted */
 searchBar.addEventListener("keyup", function (event) {
     if (event.key == "Enter") {
         weather.search();
     }
 });
 
+//call the 'fetchWeather' method of the 'weather' object.
 weather.fetchWeather("Berlin");
