@@ -121,6 +121,11 @@ input {
     .search-bar {
         width: 90%;
     }
+
+    .timeNow {
+        top: 10%;
+        left: 35%;
+    }
 }
 
 @media screen and (max-width: 410px) {
