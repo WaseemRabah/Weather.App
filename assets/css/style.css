@@ -102,3 +102,52 @@ input {
     justify-content: center;
     align-items: center;
 }
+
+/*Making the website responsive*/
+@media screen and (max-width: 680px) {
+    .container {
+        width: 90%;
+        height: 70%;
+    }
+
+    .search-bar {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    header,
+    h2 {
+        font-size: 1rem;
+    }
+
+    .container {
+        height: 60%;
+    }
+
+    .city,
+    .temp,
+    .description,
+    .humidity,
+    .wind {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 200px) {
+
+    header,
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .city,
+    .temp,
+    .description,
+    .humidity,
+    .wind {
+        font-size: 0.8rem;
+    }
+}
