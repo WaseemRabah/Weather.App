@@ -59,6 +59,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![FireFox](documentation/testing_firefox.png)
 
-    -Edge:
+    - Edge:
 
     ![Edge](documentation/testing_edge.png)
