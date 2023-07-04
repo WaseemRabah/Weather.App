@@ -42,4 +42,4 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
 ### Wireframes
 
-- [Wireframes](documentation/weather_app_wireframes.pdf)
+- The Wireframes can be accessed by clicking on [Wireframes](documentation/weather_app_wireframes.pdf)
