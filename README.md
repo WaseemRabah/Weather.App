@@ -61,4 +61,4 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     -Edge:
 
-    [Edge](documentation/testing_edge.png)
+    ![Edge](documentation/testing_edge.png)
