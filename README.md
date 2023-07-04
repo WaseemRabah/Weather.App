@@ -38,3 +38,8 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 ![Main Font](documentation/main_font.png)
 
 - Cairo Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+
+### Wireframes
+
+- [Wireframes](documentation/weather_app_wireframes.pdf)
