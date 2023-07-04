@@ -62,3 +62,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - Edge:
 
     ![Edge](documentation/testing_edge.png)
+
+
+## Responsiveness
+
+
++ he website was checked with [Responsive Viewer Chrome Extention]
+
+![Responsiveness](documentation/reponsive_test.png)
