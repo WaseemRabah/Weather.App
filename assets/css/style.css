@@ -37,10 +37,10 @@ header {
 
 /*Style the timeNow div*/
 .timeNow {
-    background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    top: 20%;
-    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*Style the button*/
@@ -121,11 +121,6 @@ input {
     .search-bar {
         width: 90%;
     }
-
-    .timeNow {
-        top: 10%;
-        left: 35%;
-    }
 }
 
 @media screen and (max-width: 410px) {
@@ -146,15 +141,10 @@ input {
     .wind {
         font-size: 1rem;
     }
-
-    .timeNow {
-        top: 12%;
-        left: 25%;
-    }
 }
 
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 250px) {
 
     header,
     h2 {
@@ -168,9 +158,14 @@ input {
     .wind {
         font-size: 0.8rem;
     }
+}
 
-    .timeNow {
-        width: 100%;
-        left: 0;
+@media screen and (max-width: 170px){
+    .city,
+    .temp,
+    .description,
+    .humidity,
+    .wind {
+        font-size: 0.7rem;
     }
 }
