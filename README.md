@@ -43,3 +43,22 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 ### Wireframes
 
 - The Wireframes can be accessed by clicking on [Wireframes](documentation/weather_app_wireframes.pdf)
+
+
+# TESTING
+
+In order to confirm the correct functionality, responsiveness, and appearance:
+
++ The website was tested on the following browsers: Chrome, Firefox, Edge.
+
+    - Chrome:
+
+    ![Chrome](documentation/testing_chrome.png)
+
+    - FireFox:
+
+    ![FireFox](documentation/testing_firefox.png)
+
+    -Edge:
+
+    [Edge](documentation/testing_edge.png)
