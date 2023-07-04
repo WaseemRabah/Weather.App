@@ -67,6 +67,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Responsiveness
 
 
-+ he website was checked with [Responsive Viewer Chrome Extention]
++ The website was checked with [Responsive Viewer Chrome Extention]
 
 ![Responsiveness](documentation/reponsive_test.png)
