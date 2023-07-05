@@ -1,3 +1,5 @@
+/* jshint esversion: 8, jquery: true, scripturl: true */
+
 /*
 1-initializes variables and selects DOM elements needed to display weather information 
 on a web page.
