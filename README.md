@@ -59,6 +59,28 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
 
 ---
+
+
+## Validator testing
++ ### HTML
+  - No errors or warnings were found when passing through the official W3C validator.
+
+
+  ![HTML Validator](documentation/css.validator.png)
+
++ ### CSS
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+
+
+  ![CSS Validator](documentation/css.validator.png)
+
++ ### JS
+  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except this warnings:
+
+
+  ![JSHint Validator](documentation/js_validator.png)
+
+---
 In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Edge.
