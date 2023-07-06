@@ -80,6 +80,13 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
   ![JSHint Validator](documentation/js_validator.png)
 
+
++ ## LightHouse report
+
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable
+
+    ![Lighthouse](documentation/lighthouse-report.png)
+
 ---
 In order to confirm the correct functionality, responsiveness, and appearance:
 
