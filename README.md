@@ -75,7 +75,7 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
   ![CSS Validator](documentation/css.validator.png)
 
 + ### JS
-  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except this warnings:
+  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator.
 
 
   ![JSHint Validator](documentation/js_validator.png)
