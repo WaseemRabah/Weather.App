@@ -157,4 +157,22 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 ## Credits
 
-+ Understand how to use API key and fetch weather from [Jonah Lawrence](https://www.youtube.com/@DevProTips)
++ #### Content
+
+  + Understand how to use API key and fetch weather from [Jonah Lawrence](https://www.youtube.com/@DevProTips)
+
+
++ #### Media
+
+  - All the images for the website were taken from [Unsplash](https://unsplash.com/).
+
+
++ #### Tools
+
+  - [cooler](https://coolors.co/) was used to create the color palette.
+
+  ---
+
+## Acknowledgments
+  - [Juliia Konovalova](https://github.com/IuliiaKonovalova) Great supporter and motivator,She was patient and helped me understand how to work with javascript and gave me a lot of valuable advice.
+  - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
