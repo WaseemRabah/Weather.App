@@ -146,3 +146,15 @@ In your IDE Terminal, type the following command to clone my repository:
 - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/WaseemRabah/weather_app), which will start the Gitpod workspace for you.
 
 ---
+
+## Future improvements
+
+- add Additional Weather Data: Expand the range of weather data provided to users. This could include more detailed forecasts, historical weather data, air quality information.
+- Localization: Implement localization features to provide weather information in multiple languages or support different date and time formats based on the user's location.
+- User Accounts and Preferences: Introduce user accounts to allow users to save their favorite locations, customize their weather preferences, and receive personalized notifications or weather alerts.
+- Social Sharing and Integration: Add social sharing capabilities to allow users to share weather information or their favorite weather conditions on social media platforms.
+
+---
+## Credits
+
++ Understand how to use API key and fetch weather from [Jonah Lawrence](https://www.youtube.com/@DevProTips)
