@@ -25,6 +25,42 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 * As a Frequent User, I want to check whether there are any changes with the weather.
 * As a Frequent User, I want to know the weather in the city I want to travel to.
 
+---
+
+
+## Features
+
+- **Real-Time Weather Updates**: Get up-to-date weather information for any city. The app fetches the latest weather data from the OpenWeatherMap API and displays the current temperature, humidity, wind speed, and weather conditions.
+
+- **Search Functionality**: Easily search for weather information for any city around the world. Simply enter the city name in the search bar or press the Enter key to retrieve the weather data.
+
+- **Dynamic Background**: The app dynamically changes the background image based on the searched city. It utilizes the Unsplash API to fetch beautiful images related to the city, providing a visually appealing experience.
+
+- **Responsive Design**: The app is designed to be responsive and adapt to different screen sizes. It ensures a seamless user experience, whether you're accessing it on a desktop, tablet, or mobile device.
+
+- **Typing Animation**: When the page loads, a typing animation is displayed to create an engaging effect. The text gradually appears as if being typed, giving a sense of interactivity to the user.
+
+- **Current Time Display**: The app displays the current time, allowing users to quickly check the time while checking the weather. The clock is automatically updated every second.
+
+- **User-Friendly Interface**: The app features a clean and intuitive interface, making it easy for users to search for weather information and view the displayed data. The search button and search bar are prominently placed for convenience.
+
+- **Weather Icon and Description**: Each city's weather information includes an icon representing the weather conditions and a description providing a brief summary of the weather, such as "Clear," "Cloudy," or "Rainy."
+
+- **Temperature, Humidity, and Wind Speed**: The app provides detailed weather data, including the current temperature in Celsius, humidity percentage, and wind speed in kilometers per hour.
+
+- **Background Image Preloading**: To optimize performance, the app preloads the background images for searched cities. This ensures that the images are loaded quickly and smoothly when displayed.
+
+
+---
+
+
+## Usage
+
+1. Enter the name of a city in the search bar.
+2. Press the Enter key or click the search button.
+3. The app will fetch and display the current weather information for the entered city.
+4. Enjoy the real-time weather updates and explore different cities around the world.
+
 
 ---
 ## Design
