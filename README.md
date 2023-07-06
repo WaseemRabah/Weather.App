@@ -58,7 +58,7 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 | 10        | GitHub Link | Click on the GitHub link and verify that it leads to my GitHub profile. | The link should open my GitHub profile page in a new tab or window. | Pass |
 
 
-
+---
 In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Edge.
