@@ -28,10 +28,7 @@ let weather = {
     apikey: "8abf7d32ed7a60b78ee3c1903714fa3e",
     fetchWeather: function (city) {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q="
-            + city
-            + "&units=metric&appid="
-            + this.apikey
+            "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=" + this.apikey
         ).then((response) => response.json())
             .then((data) => this.displayWeather(data));
     },
