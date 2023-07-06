@@ -66,7 +66,7 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
   - No errors or warnings were found when passing through the official W3C validator.
 
 
-  ![HTML Validator](documentation/css.validator.png)
+  ![HTML Validator](documentation/html_validator.png)
 
 + ### CSS
   - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
