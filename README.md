@@ -47,6 +47,18 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
 # TESTING
 
+## Manual testing
+| Test Case | Description | Expected Result | Actual Result | Pass/Fail |
+|-----------|-------------|-----------------|---------------|-----------|
+| 1         | Input Search | Enter a valid location in the search field and check if the weather information for that location is displayed correctly. | The website should retrieve and display the accurate weather data for the entered location, including temperature, humidity, and other relevant details. | Pass |
+| 2         | Current Weather | Verify that the current weather information is displayed accurately for the user's searched location. | The website should show the current temperature, weather description, humidity, wind speed, and other relevant details. | Pass |
+| 3        | Real-Time Clock | Verify that the website displays the current time accurately, synchronized with the user's device time. | The website should show the current time in the user's local time zone and update dynamically without any noticeable delay. | Pass |
+| 4         | Responsive Design | Test the website's responsiveness by accessing it on different devices and screen sizes. Ensure that the layout and content adjust correctly and remain usable. | The website should adapt to different screen sizes and maintain a responsive layout without any content or functionality issues. | Pass |
+| 5         | Performance | Monitor the website's performance by loading different pages and measuring the load times. Ensure that the pages load quickly and that there are no significant delays or performance issues. | Pages should load within an acceptable timeframe, providing a smooth and responsive user experience. | Pass |
+| 10        | GitHub Link | Click on the GitHub link and verify that it leads to my GitHub profile. | The link should open my GitHub profile page in a new tab or window. | Pass |
+
+
+
 In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Edge.
