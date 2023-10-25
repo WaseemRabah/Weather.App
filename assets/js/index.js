@@ -56,3 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const timeNowElement = document.querySelector(".timeNow");
         timeNowElement.textContent = timeString;
       }
+
+    // Function to initiate a search
+    function search() {
+        const searchValue = searchBar.value;
+        fetchWeather(searchValue);
+      }
+    
