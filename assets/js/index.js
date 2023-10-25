@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
           // Call the main manager function to initialize your application
-    fetchWeather("");
     updateClock();
     setInterval(updateClock, 1000);
 
