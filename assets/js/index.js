@@ -62,4 +62,18 @@ document.addEventListener('DOMContentLoaded', function () {
         const searchValue = searchBar.value;
         fetchWeather(searchValue);
       }
-    
+
+          // Call the main manager function to initialize your application
+    fetchWeather("");
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    const searchBtn = document.querySelector(".search button");
+    searchBtn.addEventListener("click", search);
+
+    searchBar.addEventListener("keyup", function (event) {
+      if (event.key == "Enter") {
+        search();
+    }
+    });
+  });
