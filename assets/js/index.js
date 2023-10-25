@@ -26,3 +26,22 @@ document.addEventListener('DOMContentLoaded', function () {
             console.error('Error:', error);
             }
         }
+
+        // Function to display weather data
+    function displayWeather(data) {
+        const { name } = data;
+        const { icon, description } = data.weather[0];
+        const { temp, humidity } = data.main;
+        const { speed } = data.wind;
+        console.log(name, icon, description, temp, humidity, speed);
+        cityElement.innerText = `Weather in ${name}`;
+        iconElement.src = `https://openweathermap.org/img/wn/${icon}.png`;
+        descriptionElement.innerText = description;
+        tempElement.innerText = `${temp}°C`;
+        humidityElement.innerText = `Humidity ${humidity}%`;
+        windElement.innerText = `Wind Speed ${speed}km/h`;
+        bodyElement.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${name}')`;
+        //display when user input the city
+        const weatherContainer = document.querySelector(".weather");
+        weatherContainer.style.display = "block";
+      }
