@@ -8,3 +8,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const windElement = document.querySelector(".wind");
     const bodyElement = document.body;
     const searchBar = document.querySelector(".search-bar");
+
+    // Function to fetch weather data
+    async function fetchWeather(city) {
+        try {
+            const response = await fetch(
+            `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`
+            );
+        
+            if (!response.ok) {
+            throw new Error("Failed to fetch data");
+            }
+        
+            const data = await response.json();
+            displayWeather(data);
+            } catch (error) {
+            console.error('Error:', error);
+            }
+        }
