@@ -117,7 +117,7 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
   ![JSHint Validator](documentation/js_validator.png)
 
-  - When i used Obfuscator Tool to hide the apikey some errors where found.
+  - When i used Obfuscator Tool to hide the apikey some errors where found due to the syntax.
 
 
 
