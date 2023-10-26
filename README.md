@@ -213,6 +213,12 @@ In your IDE Terminal, type the following command to clone my repository:
 
   - [cooler](https://coolors.co/) was used to create the color palette.
 
+  - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+
+  - [GitHub](https://github.com/) was used to host the code of the website.
+
+  - [Apikey](https://openweathermap.org/).
+
   ---
 
 ## Acknowledgments
