@@ -217,7 +217,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
   - [GitHub](https://github.com/) was used to host the code of the website.
 
-  - [Apikey](https://openweathermap.org/).
+  - [Openweathermap](https://openweathermap.org/)was used to get the apikey.
 
   ---
 
