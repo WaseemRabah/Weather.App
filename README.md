@@ -112,10 +112,16 @@ The site can be accessed by this [link](https://waseemrabah.github.io/weather_ap
 
 + ### JS
   - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator.
+  
 
 
   ![JSHint Validator](documentation/js_validator.png)
 
+  - When i used Obfuscator Tool to hide the apikey some errors where found.
+
+
+
+  ![JSHint Validator](documentation/js_validator_erros.png)
 
 + ## LightHouse report
 
