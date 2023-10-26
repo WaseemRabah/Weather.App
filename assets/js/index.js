@@ -64,21 +64,21 @@ async function fetchWeather(city) {
   the weather information container.
 */
 
-    function displayWeather(data) {
-        const { name } = data;
-        const { icon, description } = data.weather[0];
-        const { temp, humidity } = data.main;
-        const { speed } = data.wind;
-        console.log(name, icon, description, temp, humidity, speed);
-        cityElement.innerText = `Weather in ${name}`;
-        iconElement.src = `https://openweathermap.org/img/wn/${icon}.png`;
-        descriptionElement.innerText = description;
-        tempElement.innerText = `${temp}°C`;
-        humidityElement.innerText = `Humidity ${humidity}%`;
-        windElement.innerText = `Wind Speed ${speed}km/h`;
-        bodyElement.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${name}')`;
-        weatherContainer.style.display = "block";
-      }
+function displayWeather(data) {
+    const { name } = data;
+    const { icon, description } = data.weather[0];
+    const { temp, humidity } = data.main;
+    const { speed } = data.wind;
+    console.log(name, icon, description, temp, humidity, speed);
+    cityElement.innerText = `Weather in ${name}`;
+    iconElement.src = `https://openweathermap.org/img/wn/${icon}.png`;
+    descriptionElement.innerText = description;
+    tempElement.innerText = `${temp}°C`;
+    humidityElement.innerText = `Humidity ${humidity}%`;
+    windElement.innerText = `Wind Speed ${speed}km/h`;
+    bodyElement.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${name}')`;
+    weatherContainer.style.display = "block";
+  }
 
 /* 
 * update the displayed current time on the web page by retrieving the
@@ -86,21 +86,21 @@ async function fetchWeather(city) {
 * formats the time as
   HH:MM:SS and sets it as the content of the 'timeNowElement' element.
 */
-    function updateClock() {
-        const now = new Date();
-        const hours = now.getHours().toString().padStart(2, "0");
-        const minutes = now.getMinutes().toString().padStart(2, "0");
-        const seconds = now.getSeconds().toString().padStart(2, "0");
-        const timeString = `${hours}:${minutes}:${seconds}`;
-        timeNowElement.textContent = timeString;
-      }
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, "0");
+    const minutes = now.getMinutes().toString().padStart(2, "0");
+    const seconds = now.getSeconds().toString().padStart(2, "0");
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    timeNowElement.textContent = timeString;
+  }
 
 /* 
 * retrieve the user's input from the search bar and initiates a weather
   data fetch for the specified location by calling the 'fetchWeather' function with the
   search value as the parameter.
 */
-    function search() {
-      let searchValue = searchBar.value;
-      fetchWeather(searchValue);
-      }
+function search() {
+  let searchValue = searchBar.value;
+  fetchWeather(searchValue);
+  }
